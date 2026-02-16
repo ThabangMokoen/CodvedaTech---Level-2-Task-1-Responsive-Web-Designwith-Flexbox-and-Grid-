@@ -1,2 +1,2 @@
-# CodvedaTech---Level-2-Task-1-Responsive-Web-Designwith-Flexbox-and-Grid-
-Build a responsive webpage layout using CSS Flexbox and Grid.
+# CodvedaTech---Level-2-Task-2-Building a To-Do List using JavaScript
+Creating a functional to-do list app thatallows users to add, delete, and mark tasks ascomplete.
