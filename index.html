@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FocusList ✔</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app">
+        <h1>FocusList</h1>
+        <p>Organise. Execute. Win.</p>
+
+        <div class="input-box">
+            <input type="text" id="taskInput" placeholder="Task description">
+        </div>
+
+        <div class="options">
+            <select id="category">
+                <option value="Work">Work</option>
+                <option value="Study">Study</option>
+                <option value="Personal">Personal</option>
+            </select>
+
+            <input type="date" id="dueDate">
+            <button id="addTask">Add</button>
+        </div>
+        <div class="filters">
+            <button data-filter="All" class="active">All</button>
+            <button data-filter="Work">Work</button>
+            <button data-filter="Study">Study</button>
+            <button data-filter="Personal">Personal</button>
+        </div>
+
+        <div class="stats">
+            <span id="statsText">0 / 0 completed</span>
+        </div>
+
+
+        <ul id="taskList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
